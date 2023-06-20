@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto CK</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&family=Open+Sans:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+    <!--font-family: 'Epilogue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;-->
+    
+    <link rel="stylesheet" href="style.css">
+
+
+    
+</head>
+<body>
+    
+<header>
+   
+    <div id= "alert-error" class="alert-error">
+        Nome Inválido
+    </div>
+
+
+
+    <div class="screen0 ">
+       
+        <div class="formulario">
+                        <legend>Digite o Nome de acesso</legend>
+                <div class="input-wrapper">  
+                    <input id= "nome" type="text"   placeholder="Thaís Amoedo"  required  />  
+
+                    <button id= "enviar" type="submit">
+                            Enviar
+                        <img src="./img/seta.svg" alt="Seta apontando para direita">  <!--estou pegando ela de dentro da pasta-->
+                    </button>
+                </div>
+         </div>
+    </div>
+
+
+
+    <div class="screen1 hide">
+
+        <header>
+        <h1>Welcome, brother!</h1>
+         <p>Esse projeto foi feito para você, então espero que goste!</span></p>
+        </header>
+
+             <button id="next">Next</button>
+    </div>
+
+</header>
+
+
+    <div class="screen2 hide">
+        <h3>Olá! <br/> Escolha qual você quer ver primeiro:</h3>
+<main>
+
+         <div class="card">
+                <img src="./img/ckth.jpg"
+                alt="imagem">
+                <button id="texto"> <h2><span>Texto</span></h2> </button>
+
+         </div>
+
+
+        <div class="card">
+            <img src="./img/art.png"
+            alt="Desenho">
+            <button id="arte"><h2><span>Arte</span></h2></button>
+        </div>
+</main>
+
+        <button id="end">Sair</button>
+    </div>
+
+
+    <div class="text hide">
+        <div class="carousel">
+            <div class="carousel-inner">
+            <img src="./img/img1.jpg" alt="Imagem 1">
+            <img src="./img/img2.jpg" alt="Imagem 2">
+            <img src="./img/img3.jpg" alt="Imagem 3">
+            <img src="./img/img4.jpg" alt="Imagem 4">
+            <!--<img src="./img/img5.jpg" alt="Imagem 5">
+            <img src="./img/img6.jpg" alt="Imagem 6">
+            <img src="./img/img7.jpg" alt="Imagem 7">
+            <img src="./img/img8.jpg" alt="Imagem 8">-->
+        </div>
+          </div>
+          <div class="carousel2">
+            <div class="carousel-innerr">
+            <!--<img src="./img/img1.jpg" alt="Imagem 1">
+            <img src="./img/img2.jpg" alt="Imagem 2">
+            <img src="./img/img3.jpg" alt="Imagem 3">
+            <img src="./img/img4.jpg" alt="Imagem 4">-->
+            <img src="./img/img5.jpg" alt="Imagem 5">
+            <img src="./img/img6.jpg" alt="Imagem 6">
+            <img src="./img/img7.jpg" alt="Imagem 7">
+            <img src="./img/img8.jpg" alt="Imagem 8">
+        </div>
+          </div>
+
+        <teste>
+        <h2>Feliz Aniversário!</h2>
+        <p>Fiz esse projeto por pura diversão e somente para você já que é da sua área kkk<br>
+        Eu desejo tudo de bom para você maninho, muita saúde, muitas felicidades e muito sucesso na sua nova jornada
+        com sua nova empresa. <br/>
+        O tempo passou rápido mais fico feliz de que a cada ano eu esteja conseguindo ficar mais perto de você,
+        to sendo até programadora kkkkkkk e isso está sendo divertido, graças a você eu consegui escolher alguns caminhos
+        na minha vida, você me dá muito orgulho. <br> 
+        Um ótimo nadador, um Dev incrível, um irmão incrível também...adoro puxar seu saco porque eu admiro muito você e isso me dá muita vontade de cuidar e de ficar perto.<br>
+        </p>
+                <h1><span> I love you so much brother!!!!</span></h1>
+        </teste>
+
+        <img id="yuckth" src="./img/yuckth.jpg" alt="" >
+        <button id="voltar1">Voltar</button>
+
+    </div>
+
+    <div class="art hide">
+
+        
+        <h1>Bom Vídeo❤️</h1>
+        <img src="./video/goma-cat.gif" alt="GIF animado de gato">
+        
+        <video id="video" src="./video/ck.mp4" controls></video>
+
+          
+        <button id="voltar2">Voltar</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
